@@ -1,8 +1,10 @@
 import React from 'react';
+import SearchContainer from '../../core/components/SearchContainer';
+import './styles.scss';
 
 const Profile = () => (
-    <div>
-        <h1>Profile</h1>
+    <div className="profile-search">
+        <SearchContainer />
     </div>
 );
 
